@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <title> Teste Bootstrap </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <a  name="topo"> </a>
+        <header>
+            <section id="namepage" class="page-header">
+                <h2> Floricultura do Mundo </h2>
+            </section>
+        </header>
+
+       
+
+        <main>
+            <!-- ####################  Carrossel de Imagens  ####################-->
+            <div id="myCarousel" class="carousel slide">
+                <!-- Indicadores-->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+                <!-- Contorno do slide -->
+                <div class="carousel-inner">
+                    <section class="item active">
+                        <img src="img/flor1.jpg" alt="Teste 1" />
+                        <section class="carousel-caption">
+                            <h3> Flor 1 </h3>
+                            <p> <strong> <font color="black"> Rosa Vermelha </font> </strong> </p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <img src="img/flor 2-g.jpg" alt="Teste 2"/>
+                        <section class="carousel-caption">
+                            <h3> Flor  2 </h3>
+                            <p> <strong> <font color="black"> Girassóis </font> </strong> </p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <img src="img/flor3.jpg" alt="Teste 3"/>
+                        <section class="carousel-caption">
+                            <h3> Flor 3 </h3>
+                            <p> <strong> <font color="black"> Violeta </font> </strong> </p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <img src="img/cravovermelho.webp" alt="Teste 4"/>
+                        <section class="carousel-caption">
+                            <h3> Flor 4 </h3>
+                            <p> <strong> <font color="black"> Craveiro Vermelho </font> </strong> </p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <img src="img/c-margaridas.jpg" alt="Teste 5"/>
+                        <section class="carousel-caption">
+                            <h3> Flor 5 </h3>
+                            <p> <strong> <font color="black"> Margaridas </font> </strong> </p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <img src="img/flor6.jpg" alt="Teste 6"/>
+                        <section class="carousel-caption">
+                            <h3> Flor 6 </h3>
+                            <p>  <strong> <font color="black"> Rosa cor de Rosa </font> </strong> </p>
+                        </section>
+                    </section>
+                    <section class="item">
+                        <img src="img/orquideas.jpg" alt="Teste 7"/>
+                        <section class="carousel-caption">
+                            <h3> Flor 7 </h3>
+                            <p> <strong> <font color="black" > Orquídeas </font> </strong>  </p>
+                        </section>
+                    </section>
+                </div>
+                <!-- Controles esquerda e direita -->
+                <section id="sliders">
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </section>
+            </div>
+
+            <!-- ####################  Carrossel de Imagens  ####################-->
+
+            <section id="linha">
+                <hr/>
+            </section>
+
+            <section id="flordisp">
+                <h2> Lista de Flores Disponiveis </h2>
+            </section>
+            <!-- ####################  Lista de Flores  ####################-->
+            <div class="list-group">
+                <a class="list-group-item"> <strong> Rosa Vermelha - 1 vaso por 97,90 </strong> </a> <!-- href="https://pt.wikipedia.org/wiki/Amorphophallus_titanum"  -->
+                <a class="list-group-item"> <strong> Girassóis - 1 vaso por 65,95  </strong> </a> <!-- href="https://www.beneficiosdasplantas.com.br/cravo-de-defunto/" -->
+                <a class="list-group-item"> <strong> Violeta - 1 vaso por 159,90 </strong> </a> <!-- href="https://flores.culturamix.com/flores/qual-a-flor-da-tristeza" -->
+                <a class="list-group-item"> <strong> Craveiro Vermelho - 1 vaso por 25,85 </strong> </a> <!--  href="https://lojahusqvarna.com/blog/fichas/jacintos/#:~:text=Os%20jacintos%20s%C3%A3o%20plantas%20bolbosas%20de%20folhagem%20perene.&text=Origin%C3%A1rios%20de%20zonas%20do%20Mediterr%C3%A2neo,os%2025%20cm%20de%20altura." -->
+                <a class="list-group-item"> <strong> Margaridas - 1 vaso por 82,20 </strong> </a> <!-- href="https://www.emporiodassementes.com.br/flores/lavanda/lavanda-inglesa"-->
+                <a class="list-group-item"> <strong> Rosa cor de Rosa - 1 vaso por 95,90 </strong> </a> <!-- href="https://www.amantedasonzehoras.com.br/produto/variegata-amarela/"-->
+                <a class="list-group-item"> <strong> Orquídeas - 1 vaso por 70,00 </strong> </a> <!-- href="https://www.tuasaude.com/genciana/"-->
+                
+            </div>
+            <!-- ####################  Lista de Flores  ####################-->
+    
+            <section class="linha">
+                <hr/>
+            </section>
+                   
+            <br/><br/>
+
+            <section>
+                <p align="center">  <strong>
+                    A Floricultura do Mundo deu inicio aos anos 90,  <br>
+                    e vem sendo um dos maiores sucessos do mundo.  <br>
+                    Diante disso a nossa loja comercializa flores de varios tipos,  <br>
+                    apesar de sermos uma loja com poucas variedades, 
+                    nos focamos nas mais belas, <br>
+                    além de termos uns dos melhores preços do mundo. <br>
+                    Faça sua encomenda e de um toque floral em sua casa!! <br>
+                </strong>
+                </p>
+            </section>
+                  
+            <section class="linha">
+                <hr/>
+            </section>
+
+
+
+        </main>
+        
+
+        <nav>
+         
+            <br/><br/>
+            
+           
+        </nav>
+
+        <footer>
+            <section>
+                <section id="infopage" class="page-header">
+                    <h3> Encomende atraves dos nossos meios de contato: </h3> 
+                </section>
+                <section id="inform">
+                    <p>
+                        <br> <strong>
+                        E-mail: floriculturadomundo@hotmail.com.br 
+                        <br>
+                        Whatsapp: (31) 91235-9687
+                        <br>
+                        Telefone:(31) 33215-01709  
+                        <br>
+                        Instagram: Floricultura_do_Mundo 
+                        </strong> <br>
+                    </p> <br>
+                  <a href="#topo"> <img src="img/topo.jpg" height="150" width="250" align="left"> </a> <br> 
+                </section>
+            </section>
+        </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  
+
+  </body>
+</html>

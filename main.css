@@ -1,0 +1,126 @@
+* { /* CSS RESET*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}   
+
+/* hhh Elementos do Header hhh*/
+
+header{
+    height: 80px;
+    border: 1px solid #000;
+    margin: 0 0 5% 0;
+}
+
+#namepage {
+    width: 60%;
+    border: none;
+    margin: 0 0 10% 40%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+
+/* hhh Elementos do Header hhh*/
+
+/* mmm Elementos do Main mmm*/
+
+#myCarousel {
+    width: 60%;
+    height: 60%;
+    margin: 0 0 0 20%;
+}
+
+a.left {
+    position: left;
+}
+
+section#flordisp {
+    text-align: center;
+    font-weight: bolder;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-group {
+    width: 60%;
+    margin: 2.5% 0 0 20%;
+}
+
+section#linha > hr {
+    width: 80%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 2.5% 0 0 10%;
+}
+
+section.linha > hr {
+    width: 40%;
+    border-bottom: 2px solid rgb(204, 0, 143);
+    margin: 2.5% 0 0 30%;
+}
+
+
+/* mmm Elementos do Main mmm*/
+
+/* nnn Elementos do Nav nnn*/
+
+nav {
+    display: block;
+}
+
+ul.pagination {
+    float: left;
+    width: 60%;
+    margin: 0 0 2% 40%;
+}
+
+/* nnn Elementos do Nav nnn*/
+
+
+/* fff Elementos do Footer fff*/
+
+footer{
+    position: absolute;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#infopage {
+    float: left;
+    width: 60%;
+    border: none;
+    margin: 0 0 0 20%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#inform {
+    float: left;
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 20%;
+    text-align: center;
+    font-weight: bolder;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section#infopage > h3 {
+    width: 60%;
+    border: none;
+    margin: 2.5% 0 0 0;
+    margin-left: 20%;
+    text-align: center;
+    font-weight: bolder;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* fff Elementos do Footer fff*/
+
+
+
+
